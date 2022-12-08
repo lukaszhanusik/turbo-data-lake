@@ -3,6 +3,7 @@
 ## Make bucket in S3
 
 ```sh
+localstack start
 awslocal s3 mb s3://datalake
 ```
 
