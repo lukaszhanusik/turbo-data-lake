@@ -4,4 +4,4 @@
 # - command: cd jaffle && pip install -e '.[dev]'
 
 tasks:
-  - init: ./install-deps.sh
+  - init: cd jaffle && ./install-deps.sh
