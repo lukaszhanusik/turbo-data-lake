@@ -1,4 +1,7 @@
-ports:
-- port: 3000
+# ports:
+# - port: 3000
+# tasks:
+# - command: cd jaffle && pip install -e '.[dev]'
+
 tasks:
-- command: cd jaffle && pip install -e '.[dev]'
+  - init: ./install-deps.sh
