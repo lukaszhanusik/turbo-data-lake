@@ -17,8 +17,14 @@ This is a very experimental build, but, I plan to expand this will Meltano and A
 T B D 
 
 
+install deps 
+start localstack 
+dagit
+
+
 
 Try with Gitpod quicky:
-
-
 http://gitpod.io/#https://github.com/lukaszhanusik/turbo-data-lake/
+
+TODO:
+Github Codespaces or Devcontainer
