@@ -16,7 +16,7 @@
         {
             "label": "Start",
             "type": "shell",
-            "command": "./start-localstack.sh",
+            "command": "cd jaffle && ./start-localstack.sh",
             "group": "build",
             "presentation": {
                 "reveal": "always",
