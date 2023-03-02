@@ -13,3 +13,5 @@ pip install pytest
 pip install localstack
 pip install awscli
 pip install awscli-local
+pip install openai
+pip install langchain==0.0.55
