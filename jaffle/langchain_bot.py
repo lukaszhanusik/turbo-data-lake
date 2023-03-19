@@ -23,7 +23,8 @@ sources = [
 ]
 
 
-chain = load_qa_with_sources_chain(OpenAI(temperature=0))
+## chain = load_qa_with_sources_chain(OpenAI(temperature=0))
+chain = load_qa_with_sources_chain(OpenAI(temperature=0), chain_type="map_reduce")
 
 def print_answer(question):
     print(
